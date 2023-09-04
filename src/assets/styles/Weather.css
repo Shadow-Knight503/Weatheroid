@@ -1,0 +1,67 @@
+.container {
+    border-radius: 10px;
+    padding: 50px;
+    font-family: 'Comfortaa', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top right, rgb(20, 4, 160), rgb(8, 2, 65));
+}
+.TopBar {
+    display: flex;
+    gap: 2%;
+}
+.TopBar input {
+    width: 80%;
+    height: 40px;
+    font-family: 'Comfortaa', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding-left: 5%;
+    border-bottom: 2px solid navy;
+    outline: none;
+    color: navy;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+.TopBar input::placeholder {
+    font-family: 'Comfortaa', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+    font-size: 25px;   
+}
+.srhIco {
+    height: 50px;
+}
+.srhIco img {
+    width: 30px;
+    height: 30px;
+    filter: contrast(100%);
+}
+.Content {
+    padding: 10%;
+}
+.Content img {
+    width: 35%;
+    height: 35%;
+}
+.Temp {
+    margin: 0;
+    font-size: 40px;
+}
+.Loc {
+    margin: 0;
+    font-size: 30px;
+}
+.BtmBar {
+    display: flex;
+}
+.Hum {
+    display: flex;
+    width: fit-content;
+}
+.Wind {
+    margin-left: auto;
+    display: flex;
+    float: right;
+    width: fit-content;
+}
+.BtmBar div img {
+    width: 45px;
+    height: 45px;
+}
