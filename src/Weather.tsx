@@ -19,7 +19,7 @@ const WeatherApp = () => {
             return 0
         }
         Loc = Srh.value
-        let url = `http://api.weatherapi.com/v1/current.json?key=${APiKey}&q=${Loc}`
+        let url = `https://api.weatherapi.com/v1/current.json?key=${APiKey}&q=${Loc}`
         let resp = await fetch(url)
         let data = await resp.json()
         SetWthr({
